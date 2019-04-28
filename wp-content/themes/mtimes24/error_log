@@ -1,0 +1,16 @@
+[22-Jun-2018 12:18:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/lazy4charminar/public_html/mtimes24.in/wp-content/themes/mtimes24/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/lazy4charminar/public_html/mtimes24.in/wp-content/themes/mtimes24/index.php on line 6
+[22-Jun-2018 12:18:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/lazy4charminar/public_html/mtimes24.in/wp-content/themes/mtimes24/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/lazy4charminar/public_html/mtimes24.in/wp-content/themes/mtimes24/index.php on line 6
+[06-Aug-2018 11:56:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/lazy4charminar/public_html/mtimes24.in/wp-content/themes/mtimes24/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/lazy4charminar/public_html/mtimes24.in/wp-content/themes/mtimes24/index.php on line 6
+[06-Aug-2018 11:56:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/lazy4charminar/public_html/mtimes24.in/wp-content/themes/mtimes24/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/lazy4charminar/public_html/mtimes24.in/wp-content/themes/mtimes24/index.php on line 6

@@ -1,0 +1,16 @@
+[14-Jul-2018 04:47:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/lazy4charminar/public_html/mtimes24.in/wp-content/plugins/hello.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/lazy4charminar/public_html/mtimes24.in/wp-content/plugins/hello.php on line 59
+[18-Sep-2018 18:20:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/lazy4charminar/public_html/mtimes24.in/wp-content/plugins/hello.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/lazy4charminar/public_html/mtimes24.in/wp-content/plugins/hello.php on line 59
+[31-Jan-2019 11:03:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/lazy4charminar/public_html/mtimes24.in/wp-content/plugins/hello.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/lazy4charminar/public_html/mtimes24.in/wp-content/plugins/hello.php on line 59
+[07-Apr-2019 17:53:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/lazy4charminar/public_html/mtimes24.in/wp-content/plugins/hello.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/lazy4charminar/public_html/mtimes24.in/wp-content/plugins/hello.php on line 59

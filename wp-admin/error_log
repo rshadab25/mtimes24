@@ -1,0 +1,155 @@
+[05-May-2018 04:32:50 UTC] वर्डप्रेस डेटाबेस त्रुटि Unknown column 'wp_' in 'field list'  SELECT wp_ क्वेरी के लिए
+[26-May-2018 07:40:12 UTC] PHP Warning:  Error while sending QUERY packet. PID=443465 in /home/lazy4charminar/public_html/mtimes24.in/wp-includes/wp-db.php on line 1924
+[26-May-2018 07:40:13 UTC] PHP Stack trace:
+[26-May-2018 07:40:13 UTC] PHP   1. {main}() /home/lazy4charminar/public_html/mtimes24.in/wp-admin/admin-ajax.php:0
+[26-May-2018 07:40:13 UTC] PHP   2. require_once() /home/lazy4charminar/public_html/mtimes24.in/wp-admin/admin-ajax.php:22
+[26-May-2018 07:40:13 UTC] PHP   3. require_once() /home/lazy4charminar/public_html/mtimes24.in/wp-load.php:37
+[26-May-2018 07:40:13 UTC] PHP   4. require_once() /home/lazy4charminar/public_html/mtimes24.in/wp-config.php:89
+[26-May-2018 07:40:13 UTC] PHP   5. load_default_textdomain() /home/lazy4charminar/public_html/mtimes24.in/wp-settings.php:396
+[26-May-2018 07:40:13 UTC] PHP   6. get_user_locale() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/l10n.php:666
+[26-May-2018 07:40:13 UTC] PHP   7. wp_get_current_user() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/l10n.php:92
+[26-May-2018 07:40:13 UTC] PHP   8. _wp_get_current_user() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/pluggable.php:69
+[26-May-2018 07:40:13 UTC] PHP   9. apply_filters() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/user.php:2603
+[26-May-2018 07:40:13 UTC] PHP  10. WP_Hook->apply_filters() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/plugin.php:203
+[26-May-2018 07:40:13 UTC] PHP  11. wp_validate_auth_cookie() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/class-wp-hook.php:286
+[26-May-2018 07:40:13 UTC] PHP  12. get_user_by() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/pluggable.php:634
+[26-May-2018 07:40:13 UTC] PHP  13. WP_User::get_data_by() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/pluggable.php:99
+[26-May-2018 07:40:13 UTC] PHP  14. wpdb->get_row() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/class-wp-user.php:242
+[26-May-2018 07:40:13 UTC] PHP  15. wpdb->query() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/wp-db.php:2413
+[26-May-2018 07:40:13 UTC] PHP  16. wpdb->_do_query() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/wp-db.php:1813
+[26-May-2018 07:40:13 UTC] PHP  17. mysqli_query() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/wp-db.php:1924
+[26-May-2018 07:40:50 UTC] PHP Warning:  Error while sending QUERY packet. PID=445258 in /home/lazy4charminar/public_html/mtimes24.in/wp-includes/wp-db.php on line 1924
+[26-May-2018 07:40:51 UTC] PHP Stack trace:
+[26-May-2018 07:40:51 UTC] PHP   1. {main}() /home/lazy4charminar/public_html/mtimes24.in/wp-admin/admin-ajax.php:0
+[26-May-2018 07:40:51 UTC] PHP   2. require_once() /home/lazy4charminar/public_html/mtimes24.in/wp-admin/admin-ajax.php:22
+[26-May-2018 07:40:51 UTC] PHP   3. require_once() /home/lazy4charminar/public_html/mtimes24.in/wp-load.php:37
+[26-May-2018 07:40:51 UTC] PHP   4. require_once() /home/lazy4charminar/public_html/mtimes24.in/wp-config.php:89
+[26-May-2018 07:40:51 UTC] PHP   5. load_default_textdomain() /home/lazy4charminar/public_html/mtimes24.in/wp-settings.php:396
+[26-May-2018 07:40:51 UTC] PHP   6. get_user_locale() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/l10n.php:666
+[26-May-2018 07:40:51 UTC] PHP   7. wp_get_current_user() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/l10n.php:92
+[26-May-2018 07:40:52 UTC] PHP   8. _wp_get_current_user() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/pluggable.php:69
+[26-May-2018 07:40:52 UTC] PHP   9. apply_filters() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/user.php:2603
+[26-May-2018 07:40:52 UTC] PHP  10. WP_Hook->apply_filters() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/plugin.php:203
+[26-May-2018 07:40:52 UTC] PHP  11. wp_validate_auth_cookie() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/class-wp-hook.php:286
+[26-May-2018 07:40:52 UTC] PHP  12. get_user_by() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/pluggable.php:634
+[26-May-2018 07:40:52 UTC] PHP  13. WP_User::get_data_by() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/pluggable.php:99
+[26-May-2018 07:40:52 UTC] PHP  14. wpdb->get_row() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/class-wp-user.php:242
+[26-May-2018 07:40:52 UTC] PHP  15. wpdb->query() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/wp-db.php:2413
+[26-May-2018 07:40:52 UTC] PHP  16. wpdb->_do_query() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/wp-db.php:1813
+[26-May-2018 07:40:52 UTC] PHP  17. mysqli_query() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/wp-db.php:1924
+[26-May-2018 07:42:11 UTC] PHP Warning:  Error while sending QUERY packet. PID=452935 in /home/lazy4charminar/public_html/mtimes24.in/wp-includes/wp-db.php on line 1924
+[26-May-2018 07:42:11 UTC] PHP Warning:  Error while sending QUERY packet. PID=453941 in /home/lazy4charminar/public_html/mtimes24.in/wp-includes/wp-db.php on line 1924
+[26-May-2018 07:42:11 UTC] PHP Warning:  Error while sending QUERY packet. PID=452719 in /home/lazy4charminar/public_html/mtimes24.in/wp-includes/wp-db.php on line 1924
+[26-May-2018 07:42:11 UTC] PHP Warning:  Error while sending QUERY packet. PID=455290 in /home/lazy4charminar/public_html/mtimes24.in/wp-includes/wp-db.php on line 1924
+[26-May-2018 07:42:11 UTC] PHP Stack trace:
+[26-May-2018 07:42:11 UTC] PHP Stack trace:
+[26-May-2018 07:42:11 UTC] PHP Stack trace:
+[26-May-2018 07:42:11 UTC] PHP Stack trace:
+[26-May-2018 07:42:11 UTC] PHP   1. {main}() /home/lazy4charminar/public_html/mtimes24.in/wp-admin/admin-ajax.php:0
+[26-May-2018 07:42:11 UTC] PHP   1. {main}() /home/lazy4charminar/public_html/mtimes24.in/wp-admin/post.php:0
+[26-May-2018 07:42:11 UTC] PHP   1. {main}() /home/lazy4charminar/public_html/mtimes24.in/wp-admin/post.php:0
+[26-May-2018 07:42:11 UTC] PHP   1. {main}() /home/lazy4charminar/public_html/mtimes24.in/wp-admin/admin-ajax.php:0
+[26-May-2018 07:42:11 UTC] PHP   2. require_once() /home/lazy4charminar/public_html/mtimes24.in/wp-admin/admin-ajax.php:22
+[26-May-2018 07:42:11 UTC] PHP   2. require_once() /home/lazy4charminar/public_html/mtimes24.in/wp-admin/post.php:12
+[26-May-2018 07:42:11 UTC] PHP   2. require_once() /home/lazy4charminar/public_html/mtimes24.in/wp-admin/post.php:12
+[26-May-2018 07:42:11 UTC] PHP   2. require_once() /home/lazy4charminar/public_html/mtimes24.in/wp-admin/admin-ajax.php:22
+[26-May-2018 07:42:11 UTC] PHP   3. require_once() /home/lazy4charminar/public_html/mtimes24.in/wp-load.php:37
+[26-May-2018 07:42:11 UTC] PHP   3. require_once() /home/lazy4charminar/public_html/mtimes24.in/wp-admin/admin.php:31
+[26-May-2018 07:42:11 UTC] PHP   4. require_once() /home/lazy4charminar/public_html/mtimes24.in/wp-config.php:89
+[26-May-2018 07:42:11 UTC] PHP   4. require_once() /home/lazy4charminar/public_html/mtimes24.in/wp-load.php:37
+[26-May-2018 07:42:11 UTC] PHP   3. require_once() /home/lazy4charminar/public_html/mtimes24.in/wp-admin/admin.php:31
+[26-May-2018 07:42:11 UTC] PHP   3. require_once() /home/lazy4charminar/public_html/mtimes24.in/wp-load.php:37
+[26-May-2018 07:42:11 UTC] PHP   5. load_default_textdomain() /home/lazy4charminar/public_html/mtimes24.in/wp-settings.php:396
+[26-May-2018 07:42:11 UTC] PHP   5. require_once() /home/lazy4charminar/public_html/mtimes24.in/wp-config.php:89
+[26-May-2018 07:42:11 UTC] PHP   4. require_once() /home/lazy4charminar/public_html/mtimes24.in/wp-load.php:37
+[26-May-2018 07:42:11 UTC] PHP   4. require_once() /home/lazy4charminar/public_html/mtimes24.in/wp-config.php:89
+[26-May-2018 07:42:11 UTC] PHP   6. get_user_locale() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/l10n.php:666
+[26-May-2018 07:42:11 UTC] PHP   6. load_default_textdomain() /home/lazy4charminar/public_html/mtimes24.in/wp-settings.php:396
+[26-May-2018 07:42:11 UTC] PHP   5. require_once() /home/lazy4charminar/public_html/mtimes24.in/wp-config.php:89
+[26-May-2018 07:42:11 UTC] PHP   5. load_default_textdomain() /home/lazy4charminar/public_html/mtimes24.in/wp-settings.php:396
+[26-May-2018 07:42:11 UTC] PHP   7. get_user_locale() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/l10n.php:666
+[26-May-2018 07:42:11 UTC] PHP   7. wp_get_current_user() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/l10n.php:92
+[26-May-2018 07:42:11 UTC] PHP   6. load_default_textdomain() /home/lazy4charminar/public_html/mtimes24.in/wp-settings.php:396
+[26-May-2018 07:42:11 UTC] PHP   6. get_user_locale() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/l10n.php:666
+[26-May-2018 07:42:11 UTC] PHP   8. _wp_get_current_user() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/pluggable.php:69
+[26-May-2018 07:42:11 UTC] PHP   8. wp_get_current_user() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/l10n.php:92
+[26-May-2018 07:42:11 UTC] PHP   7. get_user_locale() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/l10n.php:666
+[26-May-2018 07:42:11 UTC] PHP   7. wp_get_current_user() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/l10n.php:92
+[26-May-2018 07:42:11 UTC] PHP   9. _wp_get_current_user() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/pluggable.php:69
+[26-May-2018 07:42:11 UTC] PHP   8. wp_get_current_user() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/l10n.php:92
+[26-May-2018 07:42:11 UTC] PHP   9. apply_filters() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/user.php:2603
+[26-May-2018 07:42:11 UTC] PHP   8. _wp_get_current_user() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/pluggable.php:69
+[26-May-2018 07:42:12 UTC] PHP  10. WP_Hook->apply_filters() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/plugin.php:203
+[26-May-2018 07:42:12 UTC] PHP   9. _wp_get_current_user() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/pluggable.php:69
+[26-May-2018 07:42:12 UTC] PHP  10. apply_filters() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/user.php:2603
+[26-May-2018 07:42:12 UTC] PHP   9. apply_filters() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/user.php:2603
+[26-May-2018 07:42:12 UTC] PHP  10. apply_filters() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/user.php:2603
+[26-May-2018 07:42:12 UTC] PHP  11. wp_validate_auth_cookie() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/class-wp-hook.php:286
+[26-May-2018 07:42:12 UTC] PHP  11. WP_Hook->apply_filters() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/plugin.php:203
+[26-May-2018 07:42:12 UTC] PHP  10. WP_Hook->apply_filters() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/plugin.php:203
+[26-May-2018 07:42:12 UTC] PHP  12. get_user_by() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/pluggable.php:634
+[26-May-2018 07:42:12 UTC] PHP  12. wp_validate_auth_cookie() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/class-wp-hook.php:286
+[26-May-2018 07:42:12 UTC] PHP  11. WP_Hook->apply_filters() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/plugin.php:203
+[26-May-2018 07:42:12 UTC] PHP  11. wp_validate_auth_cookie() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/class-wp-hook.php:286
+[26-May-2018 07:42:12 UTC] PHP  13. get_user_by() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/pluggable.php:634
+[26-May-2018 07:42:12 UTC] PHP  13. WP_User::get_data_by() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/pluggable.php:99
+[26-May-2018 07:42:12 UTC] PHP  12. wp_validate_auth_cookie() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/class-wp-hook.php:286
+[26-May-2018 07:42:12 UTC] PHP  12. get_user_by() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/pluggable.php:634
+[26-May-2018 07:42:12 UTC] PHP  14. wpdb->get_row() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/class-wp-user.php:242
+[26-May-2018 07:42:12 UTC] PHP  14. WP_User::get_data_by() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/pluggable.php:99
+[26-May-2018 07:42:12 UTC] PHP  13. get_user_by() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/pluggable.php:634
+[26-May-2018 07:42:12 UTC] PHP  13. WP_User::get_data_by() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/pluggable.php:99
+[26-May-2018 07:42:12 UTC] PHP  15. wpdb->get_row() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/class-wp-user.php:242
+[26-May-2018 07:42:12 UTC] PHP  14. WP_User::get_data_by() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/pluggable.php:99
+[26-May-2018 07:42:12 UTC] PHP  15. wpdb->query() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/wp-db.php:2413
+[26-May-2018 07:42:12 UTC] PHP  14. wpdb->get_row() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/class-wp-user.php:242
+[26-May-2018 07:42:12 UTC] PHP  15. wpdb->get_row() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/class-wp-user.php:242
+[26-May-2018 07:42:12 UTC] PHP  16. wpdb->query() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/wp-db.php:2413
+[26-May-2018 07:42:12 UTC] PHP  16. wpdb->_do_query() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/wp-db.php:1813
+[26-May-2018 07:42:12 UTC] PHP  15. wpdb->query() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/wp-db.php:2413
+[26-May-2018 07:42:12 UTC] PHP  17. mysqli_query() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/wp-db.php:1924
+[26-May-2018 07:42:12 UTC] PHP  17. wpdb->_do_query() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/wp-db.php:1813
+[26-May-2018 07:42:12 UTC] PHP  16. wpdb->query() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/wp-db.php:2413
+[26-May-2018 07:42:12 UTC] PHP  16. wpdb->_do_query() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/wp-db.php:1813
+[26-May-2018 07:42:12 UTC] PHP  18. mysqli_query() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/wp-db.php:1924
+[26-May-2018 07:42:12 UTC] PHP  17. wpdb->_do_query() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/wp-db.php:1813
+[26-May-2018 07:42:12 UTC] PHP  17. mysqli_query() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/wp-db.php:1924
+[26-May-2018 07:42:12 UTC] PHP  18. mysqli_query() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/wp-db.php:1924
+[26-May-2018 07:43:07 UTC] PHP Warning:  Error while sending QUERY packet. PID=458131 in /home/lazy4charminar/public_html/mtimes24.in/wp-includes/wp-db.php on line 1924
+[26-May-2018 07:43:07 UTC] PHP Warning:  Error while sending QUERY packet. PID=457409 in /home/lazy4charminar/public_html/mtimes24.in/wp-includes/wp-db.php on line 1924
+[26-May-2018 07:43:07 UTC] PHP Stack trace:
+[26-May-2018 07:43:07 UTC] PHP Stack trace:
+[26-May-2018 07:43:07 UTC] PHP   1. {main}() /home/lazy4charminar/public_html/mtimes24.in/wp-admin/admin-ajax.php:0
+[26-May-2018 07:43:07 UTC] PHP   1. {main}() /home/lazy4charminar/public_html/mtimes24.in/wp-admin/admin-ajax.php:0
+[26-May-2018 07:43:07 UTC] PHP   2. require_once() /home/lazy4charminar/public_html/mtimes24.in/wp-admin/admin-ajax.php:22
+[26-May-2018 07:43:07 UTC] PHP   2. require_once() /home/lazy4charminar/public_html/mtimes24.in/wp-admin/admin-ajax.php:22
+[26-May-2018 07:43:07 UTC] PHP   3. require_once() /home/lazy4charminar/public_html/mtimes24.in/wp-load.php:37
+[26-May-2018 07:43:07 UTC] PHP   3. require_once() /home/lazy4charminar/public_html/mtimes24.in/wp-load.php:37
+[26-May-2018 07:43:07 UTC] PHP   4. require_once() /home/lazy4charminar/public_html/mtimes24.in/wp-config.php:89
+[26-May-2018 07:43:07 UTC] PHP   4. require_once() /home/lazy4charminar/public_html/mtimes24.in/wp-config.php:89
+[26-May-2018 07:43:07 UTC] PHP   5. load_default_textdomain() /home/lazy4charminar/public_html/mtimes24.in/wp-settings.php:396
+[26-May-2018 07:43:07 UTC] PHP   5. load_default_textdomain() /home/lazy4charminar/public_html/mtimes24.in/wp-settings.php:396
+[26-May-2018 07:43:07 UTC] PHP   6. get_user_locale() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/l10n.php:666
+[26-May-2018 07:43:07 UTC] PHP   6. get_user_locale() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/l10n.php:666
+[26-May-2018 07:43:07 UTC] PHP   7. wp_get_current_user() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/l10n.php:92
+[26-May-2018 07:43:07 UTC] PHP   7. wp_get_current_user() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/l10n.php:92
+[26-May-2018 07:43:07 UTC] PHP   8. _wp_get_current_user() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/pluggable.php:69
+[26-May-2018 07:43:07 UTC] PHP   8. _wp_get_current_user() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/pluggable.php:69
+[26-May-2018 07:43:07 UTC] PHP   9. apply_filters() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/user.php:2603
+[26-May-2018 07:43:07 UTC] PHP   9. apply_filters() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/user.php:2603
+[26-May-2018 07:43:08 UTC] PHP  10. WP_Hook->apply_filters() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/plugin.php:203
+[26-May-2018 07:43:08 UTC] PHP  10. WP_Hook->apply_filters() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/plugin.php:203
+[26-May-2018 07:43:08 UTC] PHP  11. wp_validate_auth_cookie() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/class-wp-hook.php:286
+[26-May-2018 07:43:08 UTC] PHP  11. wp_validate_auth_cookie() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/class-wp-hook.php:286
+[26-May-2018 07:43:08 UTC] PHP  12. get_user_by() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/pluggable.php:634
+[26-May-2018 07:43:08 UTC] PHP  12. get_user_by() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/pluggable.php:634
+[26-May-2018 07:43:08 UTC] PHP  13. WP_User::get_data_by() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/pluggable.php:99
+[26-May-2018 07:43:08 UTC] PHP  13. WP_User::get_data_by() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/pluggable.php:99
+[26-May-2018 07:43:08 UTC] PHP  14. wpdb->get_row() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/class-wp-user.php:242
+[26-May-2018 07:43:08 UTC] PHP  14. wpdb->get_row() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/class-wp-user.php:242
+[26-May-2018 07:43:08 UTC] PHP  15. wpdb->query() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/wp-db.php:2413
+[26-May-2018 07:43:08 UTC] PHP  15. wpdb->query() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/wp-db.php:2413
+[26-May-2018 07:43:08 UTC] PHP  16. wpdb->_do_query() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/wp-db.php:1813
+[26-May-2018 07:43:08 UTC] PHP  16. wpdb->_do_query() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/wp-db.php:1813
+[26-May-2018 07:43:08 UTC] PHP  17. mysqli_query() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/wp-db.php:1924
+[26-May-2018 07:43:08 UTC] PHP  17. mysqli_query() /home/lazy4charminar/public_html/mtimes24.in/wp-includes/wp-db.php:1924
